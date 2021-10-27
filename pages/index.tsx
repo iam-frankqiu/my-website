@@ -25,9 +25,9 @@ const Index = ({ allPosts }: Props) => {
         </Head>
         <Container>
 
-          <Avatar  name="Frank Qiu" picture="/frankqiu.jpeg"></Avatar>
-          <div style={{wordBreak: 'break-all'}} className="ml-40 mr-40 mt-20 text-2xl">
-            Hello, My name is Frank Qiu. I am a software engineer and open-source enthusiast. I am a member of Node.js contributing some code to <Link href="https://nodejs.org/en/">Node.js</Link> and <Link href="https://www.snowpack.dev/">Snowpack</Link>.
+        <Avatar  name="Frank Qiu" picture="/frankqiu.jpeg"></Avatar>
+          <div style={{wordBreak: 'break-all'}} className="ml-40 mr-40 pt-20 text-2xl">
+            Hello. My name is Frank Qiu. I am a software engineer and open-source enthusiast. I am a member of nodejs contributing some code to <Link href="https://nodejs.org/en/">Node.js</Link> and <Link href="https://www.snowpack.dev/">Snowpack</Link>.
              I love to work on <Link href="https://github.com/iam-frankqiu" >GitHub</Link> which makes me feel fulling achievement. You can follow me on <Link href="https://twitter.com/FrankQi73998203" >Twitter</Link> and we can have a talk.
           </div>
           {/* {heroPost && (
@@ -39,7 +39,7 @@ const Index = ({ allPosts }: Props) => {
               slug={heroPost.slug}
               excerpt={heroPost.excerpt}
             />
-          )} */}
+          )} 
           {/* {morePosts.length > 0 && <MoreStories posts={morePosts} />} */}
         </Container>
       </Layout>

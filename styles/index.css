@@ -13,6 +13,9 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
+body {
+    overflow: hidden!important;
+}
 .blue {
     color: #0070f3;
 }
