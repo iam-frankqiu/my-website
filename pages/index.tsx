@@ -2,9 +2,11 @@ import Container from '../components/container'
 import MoreStories from '../components/more-stories'
 import HeroPost from '../components/hero-post'
 import Intro from '../components/intro'
+import Avatar from '../components/avatar'
 import Layout from '../components/layout'
 import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
+import Link from '../components/Link'
 import { CMS_NAME } from '../lib/constants'
 import Post from '../types/post'
 
@@ -19,11 +21,16 @@ const Index = ({ allPosts }: Props) => {
     <>
       <Layout>
         <Head>
-          <title>Next.js Blog Example with {CMS_NAME}</title>
+          <title>The personal website of Frank Qiu</title>
         </Head>
         <Container>
-          <Intro />
-          {heroPost && (
+
+          <Avatar  name="Frank Qiu" picture="/frankqiu.jpeg"></Avatar>
+          <div style={{wordBreak: 'break-all'}} className="ml-40 mr-40 mt-20 text-2xl">
+            Hello, My name is Frank Qiu. I am a software engineer and open-source enthusiast. I am a member of Node.js contributing some code to <Link href="https://nodejs.org/en/">Node.js</Link> and <Link href="https://www.snowpack.dev/">Snowpack</Link>.
+             I love to work on <Link href="https://github.com/iam-frankqiu" >GitHub</Link> which makes me feel fulling achievement. You can follow me on <Link href="https://twitter.com/FrankQi73998203" >Twitter</Link> and we can have a talk.
+          </div>
+          {/* {heroPost && (
             <HeroPost
               title={heroPost.title}
               coverImage={heroPost.coverImage}
@@ -32,8 +39,8 @@ const Index = ({ allPosts }: Props) => {
               slug={heroPost.slug}
               excerpt={heroPost.excerpt}
             />
-          )}
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+          )} */}
+          {/* {morePosts.length > 0 && <MoreStories posts={morePosts} />} */}
         </Container>
       </Layout>
     </>
