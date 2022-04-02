@@ -27,8 +27,8 @@ const Index = ({ allPosts }: Props) => {
 
         <Avatar  name="Frank Qiu" picture="/frankqiu.jpeg"></Avatar>
           <div style={{wordBreak: 'break-all'}} className="ml-40 mr-40 pt-20 text-2xl">
-            Hello. My name is Frank Qiu, obsessed with clean, reusable, and elegant code. I am a software engineer and open-source enthusiast. I am a member of nodejs contributing some code to <Link href="https://nodejs.org/en/">Node.js</Link> and <Link href="https://www.snowpack.dev/">Snowpack</Link>.
-             I love to work on <Link href="https://github.com/iam-frankqiu" >GitHub</Link> which makes me feel fulling achievement. You can follow me on <Link href="https://twitter.com/FrankQi73998203" >Twitter</Link> and we can have a talk.
+            Hello. My name is Frank Qiu, obsessed with clean, reusable, and elegant code. I am a software engineer and open-source enthusiast who has carpenter's spirits to keep polishing my code and product by refactoring my code.I am also a member of nodejs contributing some code to <Link href="https://nodejs.org/en/">Node.js</Link> and <Link href="https://www.snowpack.dev/">Snowpack</Link>.
+             I love to work on <Link href="https://github.com/iam-frankqiu" >GitHub</Link>, which makes me feel a lot of sense of achievement. You can follow me on <Link href="https://twitter.com/FrankQi73998203" >Twitter</Link> and we can have a talk.
           </div>
           {/* {heroPost && (
             <HeroPost
