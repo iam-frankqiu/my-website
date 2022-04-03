@@ -27,7 +27,7 @@ const Index = ({ allPosts }: Props) => {
 
         <Avatar  name="Frank Qiu" picture="/frankqiu.jpeg"></Avatar>
           <div style={{wordBreak: 'break-all'}} className="ml-40 mr-40 pt-20 text-2xl">
-            Hello. My name is Frank Qiu, obsessed with clean, reusable, and elegant code. I am a software engineer and open-source enthusiast who has carpenter's spirits to keep polishing my code and product by refactoring my code.I am also a member of nodejs contributing some code to <Link href="https://nodejs.org/en/">Node.js</Link> and <Link href="https://www.snowpack.dev/">Snowpack</Link>.
+            Hello. My name is Frank Qiu, obsessed with clean, reusable, and elegant code. I am a software engineer and open-source enthusiast who have carpenter's spirits and extreme pursuit of productivity to keep polishing my code and product by refactoring my code.I am also a member of nodejs contributing some code to <Link href="https://nodejs.org/en/">Node.js</Link> and <Link href="https://www.snowpack.dev/">Snowpack</Link>.
              I love to work on <Link href="https://github.com/iam-frankqiu" >GitHub</Link>, which makes me feel a lot of sense of achievement. You can follow me on <Link href="https://twitter.com/FrankQi73998203" >Twitter</Link> and we can have a talk.
              <p className='mt-10'>
              Annoyed with work overtime normalization of Chinese companies' culture, I am determined to quit my job to learn English and other technologies that I am interested in. I keep learning and coding full time until I find an awesome enough company to work for. I am based in China, whose time zone is CST(UST + 8). If you have a job that is suitable for me, you can contact me by <Link href="mailto:iam.frankqiu@gmail.com">email</Link>.
