@@ -46,7 +46,10 @@ const Index = ({ allPosts }: Props) => {
           )} 
           {/* {morePosts.length > 0 && <MoreStories posts={morePosts} />} */}
         </Container>
+      <iframe style={{width: '100%', height: '700px'}} src="https://embed.0xecho.com.ipns.page?color-theme=light&desc=My%20personal%20website.&has-h-padding=true&has-v-padding=true&modules=comment%2Ctip%2Cdislike%2Clike&receiver=frank1234.bit&target_uri=https%3A%2F%2Fwww.frankqiu.me" frameBorder="0"></iframe>
       </Layout>
+
+
     </>
   )
 }
